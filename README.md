@@ -4,13 +4,13 @@ A sophisticated CrewAI-powered travel planning application that provides persona
 
 ##  Features
 
-- ** Smart Discovery**: AI-powered destination suggestions based on travel preferences
-- ** Multi-Agent Planning**: Collaborative crew of specialized travel agents
-- ** Detailed Itineraries**: Day-by-hour activity planning with weather considerations
-- ** Safety Monitoring**: Real-time safety alerts and local insights
-- ** Logistics Coordination**: Flights, hotels, and transportation planning
-- ** Experience Optimization**: Golden hour scheduling and photography tips
-- ** State-Machine UI**: Non-resetting interface with seamless flow
+- **Smart Discovery**: AI-powered destination suggestions based on travel preferences
+- **Multi-Agent Planning**: Collaborative crew of specialized travel agents
+- **Detailed Itineraries**: Day-by-hour activity planning with weather considerations
+- **Safety Monitoring**: Real-time safety alerts and local insights
+- **Logistics Coordination**: Flights, hotels, and transportation planning
+- **Experience Optimization**: Golden hour scheduling and photography tips
+- **State-Machine UI**: Non-resetting interface with seamless flow
 
 ##  AI Agents
 
