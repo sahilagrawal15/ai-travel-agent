@@ -1,25 +1,21 @@
 import os
-import requests
-from typing import List, Dict, Any
+from typing import List
+from crewai_tools import SerperDevTool, ScrapeWebsiteTool
 
 def get_search_tools() -> List:
     """
-    Setup and return search tools for agents
-    Returns: List of configured tools
+    Setup and return search tools for agents.
+    Ensure SERPER_API_KEY is in your .env file.
     """
-    # For now, return empty list to avoid crewai-tools compatibility issues
-    # Agents will work with their built-in knowledge
-    return []
+    # Check if API key exists to avoid initialization errors
+    if not os.getenv("SERPER_API_KEY"):
+        print("⚠️ Warning: SERPER_API_KEY not found. Search tools will be disabled.")
+        return []
 
-def search_web(query: str) -> str:
-    """
-    Simple web search using requests (fallback method)
-    Args:
-        query: Search query
-    Returns: Search results
-    """
-    try:
-        # This is a placeholder - in production you'd use a real search API
-        return f"Search results for: {query}\n[Note: Real search functionality requires API integration]"
-    except Exception as e:
-        return f"Search error: {str(e)}"
+    # 1. SerperDevTool: For real-time Google Search (Flights, Prices, News)
+    search_tool = SerperDevTool(n_results=2)
+
+    # 2. ScrapeWebsiteTool: For reading specific airline/hotel pages for details
+    scrape_tool = ScrapeWebsiteTool()
+
+    return [search_tool, scrape_tool]
