@@ -1,18 +1,18 @@
-# 🧭 VoyageOps-Pro - AI Travel Agency
+#  VoyageOps-Pro - AI Travel Agency
 
 A sophisticated CrewAI-powered travel planning application that provides personalized destination discovery and comprehensive travel itineraries using multiple specialized AI agents.
 
-## ✨ Features
+##  Features
 
-- **🔍 Smart Discovery**: AI-powered destination suggestions based on travel preferences
-- **🎯 Multi-Agent Planning**: Collaborative crew of specialized travel agents
-- **📅 Detailed Itineraries**: Day-by-hour activity planning with weather considerations
-- **🛡️ Safety Monitoring**: Real-time safety alerts and local insights
-- **🏨 Logistics Coordination**: Flights, hotels, and transportation planning
-- **🌅 Experience Optimization**: Golden hour scheduling and photography tips
-- **🔄 State-Machine UI**: Non-resetting interface with seamless flow
+- ** Smart Discovery**: AI-powered destination suggestions based on travel preferences
+- ** Multi-Agent Planning**: Collaborative crew of specialized travel agents
+- ** Detailed Itineraries**: Day-by-hour activity planning with weather considerations
+- ** Safety Monitoring**: Real-time safety alerts and local insights
+- ** Logistics Coordination**: Flights, hotels, and transportation planning
+- ** Experience Optimization**: Golden hour scheduling and photography tips
+- ** State-Machine UI**: Non-resetting interface with seamless flow
 
-## 🤖 AI Agents
+##  AI Agents
 
 ### Discovery Strategist
 - Analyzes travel preferences and suggests 3 perfect destination concepts
@@ -32,8 +32,8 @@ A sophisticated CrewAI-powered travel planning application that provides persona
 - Provides safety briefings and local insights
 - Optimizes for photography (sunrise/sunset timing)
 - Identifies authentic local dining experiences
-
-## 🚀 Quick Start
+  
+##  Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -128,7 +128,7 @@ The application uses a robust state-machine pattern to prevent page resets:
 - Groq LLM integration for fast responses
 - Error handling and graceful degradation
 
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -151,7 +151,7 @@ ai-travel-agent/
 - **groq**: LLM provider
 - **httpx**: HTTP client for API calls
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -182,7 +182,7 @@ Enable verbose logging by setting:
 # In crew.py, change verbose=True for crew execution
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -200,14 +200,14 @@ Enable verbose logging by setting:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CrewAI** - Multi-agent orchestration framework
 - **Groq** - Fast LLM inference
 - **Streamlit** - Beautiful web UI framework
 - **Serper** - Real-time search capabilities
 
-## 📞 Support
+##  Support
 
 For issues, questions, or feature requests:
 - Create an issue in the repository
@@ -216,4 +216,4 @@ For issues, questions, or feature requests:
 
 ---
 
-**🌟 Happy travels with VoyageOps-Pro!**
+** Happy travels with VoyageOps-Pro!**
